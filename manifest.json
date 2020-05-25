@@ -1,9 +1,13 @@
 {
 	"manifest_version": 2,
-	"name": "我的时钟",
+	"name": "AutoScreenShot",
 	"version": "1.0",
-	"description": "我的第二个Chrome扩展",
-	"permissions": [ "notifications", "activeTab" ],
+	"description": "Capture&Download",
+	"permissions": [ 
+		"notifications", 
+		"downloads", 
+		"activeTab"
+	],
 	"web_accessible_resources": [ "live.png" ],
 	"icons": {
 		"16": "16.png",
